@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    font-family: system-ui;
+  }
+  .container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apidata{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 800;
+    gap:20px;
+   
+  }
+  .data_file{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+  }
+  .data_file img{
+    width: 40px;
+  }
+  .data_file .mkt{
+    padding-left: 10px;
+  }
+  .mkt_cap{
+    color: green;
+  }
+  .data_input{
+    margin-top: 20px;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+  }
+  .box{
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+  }
+  .box .data_input{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .box .btns{
+    display: flex;
+   justify-content: center;
+   gap:5px;
+
+  }
+
+  .btns button{
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: 600;
+  }
